@@ -16,13 +16,13 @@
               class="icons"
               src="./icons/view-dashboard.svg"
               alt="dashboard"
-              height="64"
-              width="64"
+              height="36"
+              width="36"
             />Dashboard
           </li>
         </ul>
 
-        <div class="sidebar top-content">
+        <div class="sidebar-top">
           <ul>
             <li>
               <img
@@ -80,7 +80,7 @@
             </li>
           </ul>
         </div>
-        <div class="sidebar bottom-content">
+        <div class="sidebar-bottom">
           <ul>
             <li>
               <img
@@ -114,273 +114,270 @@
       </div>
       <div class="header">
         <div class="top-content">
-          <img src="./icons/magnify.svg" alt="search" height="24" width="24" />
-          <input type="text" />
-          <img
-            src="./icons/bell-ring-outline.svg"
-            alt="notification"
-            height="24"
-            width="24"
-          />
-          <img class="avatar" src="https://i.pravatar.cc/300" />
-          <p>Morgan Oakley</p>
+          <div class="top-left">
+            <img
+              src="./icons/magnify.svg"
+              alt="search"
+              height="24"
+              width="24"
+            />
+            <input type="text" />
+          </div>
+          <div class="top-right">
+            <img
+              src="./icons/bell-ring-outline.svg"
+              alt="notification"
+              height="24"
+              width="24"
+            />
+            <img class="avatar" src="https://i.pravatar.cc/300" />
+            <div>Morgan Oakley</div>
+          </div>
         </div>
         <div class="bottom-content">
-          <img class="profile-picture" src="https://i.pravatar.cc/300" />
-          <div class="greeting">
-            <p>Hi there,</p>
-            <p id="user-name">Morgan Oakley (@Morgan)</p>
+          <div class="bottom-left">
+            <img class="profile-picture" src="https://i.pravatar.cc/300" />
+            <div class="greeting">
+              <div>Hi there,</div>
+              <div id="user-name">Morgan Oakley (@Morgan)</div>
+            </div>
           </div>
-          <button>New</button>
-          <button>Upload</button>
-          <button>Share</button>
+
+          <div class="bottom-right">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
         </div>
       </div>
 
       <div id="main-content">
-        <div class="content-headers">
+        <div class="main-header">
           <div>Your Projects</div>
           <div>Announcements</div>
         </div>
         <div class="content-wrapper">
           <div class="projects">
             <div class="card">
-              <article>
-                <div>Super Cool Project</div>
-                <p>
-                  Sit amet consectetur adipisicing elit. Non cum sunt quisquam
-                  ducimus voluptatem est inventore quibusdam natus, ipsum
-                  obcaecati dolorem delectus eveniet eaque, id animi nulla
-                  perferendis accusantium exercitationem.
-                </p>
-                <div class="icon-wrapper">
-                  <img
-                    src="./icons/star-plus-outline.svg"
-                    alt="add"
-                    height="24"
-                    width="24"
-                  />
-                  <img
-                    src="./icons/eye-plus-outline.svg"
-                    alt="see"
-                    height="24"
-                    width="24"
-                  />
-                  <img
-                    src="./icons/source-fork.svg"
-                    alt="source-fork"
-                    height="24"
-                    width="24"
-                  />
-                </div>
-              </article>
+              <div>Super Cool Project</div>
+              <div>
+                Sit amet consectetur adipisicing elit. Non cum sunt quisquam
+                ducimus voluptatem est inventore quibusdam natus, ipsum
+                obcaecati dolorem delectus eveniet eaque, id animi nulla
+                perferendis accusantium exercitationem.
+              </div>
+              <div class="icon-wrapper">
+                <img
+                  src="./icons/star-plus-outline.svg"
+                  alt="add"
+                  height="24"
+                  width="24"
+                />
+                <img
+                  src="./icons/eye-plus-outline.svg"
+                  alt="see"
+                  height="24"
+                  width="24"
+                />
+                <img
+                  src="./icons/source-fork.svg"
+                  alt="source-fork"
+                  height="24"
+                  width="24"
+                />
+              </div>
             </div>
             <div class="card">
-              <article>
-                <div>Less Cool Project</div>
-                <p>
-                  Sit amet consectetur adipisicing elit. Non cum sunt quisquam
-                  ducimus voluptatem est inventore quibusdam natus, ipsum
-                  obcaecati dolorem delectus eveniet eaque, id animi nulla
-                  perferendis accusantium exercitationem.
-                </p>
-                <div class="icon-wrapper">
-                  <img
-                    src="./icons/star-plus-outline.svg"
-                    alt="add"
-                    height="24"
-                    width="24"
-                  />
-                  <img
-                    src="./icons/eye-plus-outline.svg"
-                    alt="see"
-                    height="24"
-                    width="24"
-                  />
-                  <img
-                    src="./icons/source-fork.svg"
-                    alt="source-fork"
-                    height="24"
-                    width="24"
-                  />
-                </div>
-              </article>
+              <div>Less Cool Project</div>
+              <div>
+                Sit amet consectetur adipisicing elit. Non cum sunt quisquam
+                ducimus voluptatem est inventore quibusdam natus, ipsum
+                obcaecati dolorem delectus eveniet eaque, id animi nulla
+                perferendis accusantium exercitationem.
+              </div>
+              <div class="icon-wrapper">
+                <img
+                  src="./icons/star-plus-outline.svg"
+                  alt="add"
+                  height="24"
+                  width="24"
+                />
+                <img
+                  src="./icons/eye-plus-outline.svg"
+                  alt="see"
+                  height="24"
+                  width="24"
+                />
+                <img
+                  src="./icons/source-fork.svg"
+                  alt="source-fork"
+                  height="24"
+                  width="24"
+                />
+              </div>
             </div>
             <div class="card">
-              <article>
-                <div>Impossible App</div>
-                <p>
-                  Sit amet consectetur adipisicing elit. Non cum sunt quisquam
-                  ducimus voluptatem est inventore quibusdam natus, ipsum
-                  obcaecati dolorem delectus eveniet eaque, id animi nulla
-                  perferendis accusantium exercitationem.
-                </p>
-                <div class="icon-wrapper">
-                  <img
-                    src="./icons/star-plus-outline.svg"
-                    alt="add"
-                    height="24"
-                    width="24"
-                  />
-                  <img
-                    src="./icons/eye-plus-outline.svg"
-                    alt="see"
-                    height="24"
-                    width="24"
-                  />
-                  <img
-                    src="./icons/source-fork.svg"
-                    alt="source-fork"
-                    height="24"
-                    width="24"
-                  />
-                </div>
-              </article>
+              <div>Impossible App</div>
+              <div>
+                Sit amet consectetur adipisicing elit. Non cum sunt quisquam
+                ducimus voluptatem est inventore quibusdam natus, ipsum
+                obcaecati dolorem delectus eveniet eaque, id animi nulla
+                perferendis accusantium exercitationem.
+              </div>
+              <div class="icon-wrapper">
+                <img
+                  src="./icons/star-plus-outline.svg"
+                  alt="add"
+                  height="24"
+                  width="24"
+                />
+                <img
+                  src="./icons/eye-plus-outline.svg"
+                  alt="see"
+                  height="24"
+                  width="24"
+                />
+                <img
+                  src="./icons/source-fork.svg"
+                  alt="source-fork"
+                  height="24"
+                  width="24"
+                />
+              </div>
             </div>
             <div class="card">
-              <article>
-                <div>Very Peasy App</div>
-                <p>
-                  Sit amet consectetur adipisicing elit. Non cum sunt quisquam
-                  ducimus voluptatem est inventore quibusdam natus, ipsum
-                  obcaecati dolorem delectus eveniet eaque, id animi nulla
-                  perferendis accusantium exercitationem.
-                </p>
-                <div class="icon-wrapper">
-                  <img
-                    src="./icons/star-plus-outline.svg"
-                    alt="add"
-                    height="24"
-                    width="24"
-                  />
-                  <img
-                    src="./icons/eye-plus-outline.svg"
-                    alt="see"
-                    height="24"
-                    width="24"
-                  />
-                  <img
-                    src="./icons/source-fork.svg"
-                    alt="source-fork"
-                    height="24"
-                    width="24"
-                  />
-                </div>
-              </article>
+              <div>Very Peasy App</div>
+              <div>
+                Sit amet consectetur adipisicing elit. Non cum sunt quisquam
+                ducimus voluptatem est inventore quibusdam natus, ipsum
+                obcaecati dolorem delectus eveniet eaque, id animi nulla
+                perferendis accusantium exercitationem.
+              </div>
+              <div class="icon-wrapper">
+                <img
+                  src="./icons/star-plus-outline.svg"
+                  alt="add"
+                  height="24"
+                  width="24"
+                />
+                <img
+                  src="./icons/eye-plus-outline.svg"
+                  alt="see"
+                  height="24"
+                  width="24"
+                />
+                <img
+                  src="./icons/source-fork.svg"
+                  alt="source-fork"
+                  height="24"
+                  width="24"
+                />
+              </div>
             </div>
             <div class="card">
-              <article>
-                <div>Ad Blocker</div>
-                <p>
-                  Sit amet consectetur adipisicing elit. Non cum sunt quisquam
-                  ducimus voluptatem est inventore quibusdam natus, ipsum
-                  obcaecati dolorem delectus eveniet eaque, id animi nulla
-                  perferendis accusantium exercitationem.
-                </p>
-                <div class="icon-wrapper">
-                  <img
-                    src="./icons/star-plus-outline.svg"
-                    alt="add"
-                    height="24"
-                    width="24"
-                  />
-                  <img
-                    src="./icons/eye-plus-outline.svg"
-                    alt="see"
-                    height="24"
-                    width="24"
-                  />
-                  <img
-                    src="./icons/source-fork.svg"
-                    alt="source-fork"
-                    height="24"
-                    width="24"
-                  />
-                </div>
-              </article>
+              <div>Ad Blocker</div>
+              <div>
+                Sit amet consectetur adipisicing elit. Non cum sunt quisquam
+                ducimus voluptatem est inventore quibusdam natus, ipsum
+                obcaecati dolorem delectus eveniet eaque, id animi nulla
+                perferendis accusantium exercitationem.
+              </div>
+              <div class="icon-wrapper">
+                <img
+                  src="./icons/star-plus-outline.svg"
+                  alt="add"
+                  height="24"
+                  width="24"
+                />
+                <img
+                  src="./icons/eye-plus-outline.svg"
+                  alt="see"
+                  height="24"
+                  width="24"
+                />
+                <img
+                  src="./icons/source-fork.svg"
+                  alt="source-fork"
+                  height="24"
+                  width="24"
+                />
+              </div>
             </div>
             <div class="card">
-              <article>
-                <div>Money Maker</div>
-                <p>
-                  Sit amet consectetur adipisicing elit. Non cum sunt quisquam
-                  ducimus voluptatem est inventore quibusdam natus, ipsum
-                  obcaecati dolorem delectus eveniet eaque, id animi nulla
-                  perferendis accusantium exercitationem.
-                </p>
-                <div class="icon-wrapper">
-                  <img
-                    src="./icons/star-plus-outline.svg"
-                    alt="add"
-                    height="24"
-                    width="24"
-                  />
-                  <img
-                    src="./icons/eye-plus-outline.svg"
-                    alt="see"
-                    height="24"
-                    width="24"
-                  />
-                  <img
-                    src="./icons/source-fork.svg"
-                    alt="source-fork"
-                    height="24"
-                    width="24"
-                  />
-                </div>
-              </article>
+              <div>Money Maker</div>
+              <div>
+                Sit amet consectetur adipisicing elit. Non cum sunt quisquam
+                ducimus voluptatem est inventore quibusdam natus, ipsum
+                obcaecati dolorem delectus eveniet eaque, id animi nulla
+                perferendis accusantium exercitationem.
+              </div>
+              <div class="icon-wrapper">
+                <img
+                  src="./icons/star-plus-outline.svg"
+                  alt="add"
+                  height="24"
+                  width="24"
+                />
+                <img
+                  src="./icons/eye-plus-outline.svg"
+                  alt="see"
+                  height="24"
+                  width="24"
+                />
+                <img
+                  src="./icons/source-fork.svg"
+                  alt="source-fork"
+                  height="24"
+                  width="24"
+                />
+              </div>
             </div>
           </div>
           <div id="announcements">
-            <!-- <h3>Announcements</h3> -->
             <div class="card">
-              <article>
-                <div class="announcements-header">Site Maintenance</div>
-                <p class="text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas
-                  commodi, cumque aut, at dicta odit tenetur quasi temporibus
-                </p>
-                <hr />
-              </article>
-              <article>
-                <div class="announcements-header">Community Share Day</div>
-                <p class="text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas
-                  commodi, cumque aut, at dicta odit tenetur quasi temporibus
-                </p>
-                <hr />
-              </article>
-              <article>
-                <div class="announcements-header">Updated Privacy Policy</div>
-                <p class="text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas
-                  commodi, cumque aut, at dicta odit tenetur quasi temporibus
-                </p>
-                <hr />
-              </article>
+              <div class="announcements-header">Site Maintenance</div>
+              <div class="text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas
+                commodi, cumque aut, at dicta odit tenetur quasi temporibus
+              </div>
+              <hr />
+
+              <div class="announcements-header">Community Share Day</div>
+              <div class="text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas
+                commodi, cumque aut, at dicta odit tenetur quasi temporibus
+              </div>
+              <hr />
+
+              <div class="announcements-header">Updated Privacy Policy</div>
+              <div class="text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas
+                commodi, cumque aut, at dicta odit tenetur quasi temporibus
+              </div>
+              <hr />
             </div>
-            <div class="trending">
-              <h3>Trending</h3>
+            <div id="trending">
+              <div class="trending-header">Trending</div>
               <div class="card">
                 <img class="avatar" src="https://i.pravatar.cc/300" />
                 <div class="user">
                   <div class="username">@tegan</div>
-                  <p class="organization">World Peace Builder</p>
+                  <div class="organization">World Peace Builder</div>
                 </div>
                 <img class="avatar" src="https://i.pravatar.cc/300" />
                 <div class="user">
-                  <p class="username">@tmorgan</p>
-                  <p class="organization">Super Cool Project</p>
+                  <div class="username">@tmorgan</div>
+                  <div class="organization">Super Cool Project</div>
                 </div>
                 <img class="avatar" src="https://i.pravatar.cc/300" />
                 <div class="user">
-                  <p class="username">@kendall</p>
-                  <p class="organization">Life Changing App</p>
+                  <div class="username">@kendall</div>
+                  <div class="organization">Life Changing App</div>
                 </div>
                 <img class="avatar" src="https://i.pravatar.cc/300" />
                 <div class="user">
-                  <p class="username">@alex</p>
-                  <p class="organization">No Traffic Maker</p>
+                  <div class="username">@alex</div>
+                  <div class="organization">No Traffic Maker</div>
                 </div>
               </div>
             </div>
